@@ -29,7 +29,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: isviewed != 0 ? OnBoard() : Home(),
+      home: isviewed != 10 ? OnBoard() : Home(),
     );
   }
 }
